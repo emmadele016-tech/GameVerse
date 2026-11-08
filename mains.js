@@ -175,7 +175,7 @@ const gamesData = {
         genre: "Action",
         experience: "Combat",
         world: "Fantasy",
-        image: "images/ironclad.jpeg",
+        image: "ironclad.jpeg",
         description: "Enter a world of intense battles, powerful warriors and challenging adventures. Test your abilities and prove your strength in the arena."
     },
 
@@ -185,7 +185,7 @@ const gamesData = {
         genre: "Adventure",
         experience: "Exploration",
         world: "Fantasy",
-        image: "images/ashen-frontier.jpeg",
+        image: "ashen-frontier.jpeg",
         description: "Discover forgotten lands, uncover hidden mysteries and explore a world filled with secrets and unexpected adventures."
     },
 
@@ -195,7 +195,7 @@ const gamesData = {
         genre: "Racing",
         experience: "High Speed",
         world: "Motorsport",
-        image: "images/velocity-x.jpeg",
+        image: "velocity-x.jpeg",
         description: "Push your limits, take on challenging tracks and experience the excitement of high-speed competition."
     },
 
@@ -205,7 +205,7 @@ const gamesData = {
         genre: "Sports",
         experience: "Competition",
         world: "Sports",
-        image: "images/goalbound.jpeg",
+        image: "goalbound.jpeg",
         description: "Experience the excitement of competitive sports, develop your skills and take on new challenges."
     },
 
@@ -215,7 +215,7 @@ const gamesData = {
         genre: "RPG",
         experience: "Role Playing",
         world: "Fantasy",
-        image: "images/mythic-echoes.jpeg",
+        image: "mythic-echoes.jpeg",
         description: "Build your legend in a magical world filled with mysterious creatures, unforgettable characters and epic adventures."
     },
 
@@ -225,7 +225,7 @@ const gamesData = {
         genre: "Strategy",
         experience: "Strategy",
         world: "Medieval",
-        image: "images/kingdoms-at-war.jpeg",
+        image: "kingdoms-at-war.jpeg",
         description: "Command your forces, make strategic decisions and shape the future of your own empire."
     }
 };
