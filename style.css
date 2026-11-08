@@ -396,7 +396,7 @@ button {
             rgba(5, 9, 18, 0.45) 45%,
             rgba(5, 9, 18, 0.05) 100%
         ),
-        url("../images/shadow-realm.png");
+        url("../shadow-realm.png");
 
     background-size: cover;
     background-position: center;
