@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GameVerse | Gaming Universe</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  
+<!-- NAVIGATION -->
+<header class="header">
+    <nav class="navbar container">
+
+        <a href="#" class="logo">
+            <span class="logo-icon">GV</span>
+            <span>GAME<span class="logo-accent">VERSE</span></span>
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-menu" id="nav-menu">
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#games" class="nav-link">Games</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#community" class="nav-link">Community</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#games" class="nav-button">
+                    Explore Games <span>→</span>
+                </a>
+            </div>
+
+        </div>
+
+    </nav>
+</header>
+
+    
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <span class="hero-label">
+                <span class="status-dot"></span>
+                YOUR NEXT ADVENTURE STARTS HERE
+            </span>
+
+            <h1>
+                ENTER A NEW
+                <span>WORLD.</span>
+            </h1>
+
+            <p>
+                Discover incredible worlds, experience
+                unforgettable adventures, and explore
+                a universe of games built for players.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#games" class="hero-primary-btn">
+                    Explore Games <span>→</span>
+                </a>
+
+                <a href="#about" class="hero-secondary-btn">
+                    Discover More
+                </a>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div class="hero-stat">
+                    <h3>24+</h3>
+                    <span>Game Titles</span>
+                </div>
+
+                <div class="hero-stat">
+                    <h3>06</h3>
+                    <span>Categories</span>
+                </div>
+
+                <div class="hero-stat">
+                    <h3>∞</h3>
+                    <span>Possibilities</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- FEATURED GAME CARD -->
+        <div class="hero-featured">
+
+            <div class="featured-tag">
+                FEATURED GAME
+            </div>
+
+            <div class="featured-info">
+
+                <span>ACTION / ADVENTURE</span>
+
+                <h2>SHADOW REALM</h2>
+
+                <p>
+                    A journey into darkness.
+                    A fight for survival.
+                </p>
+
+                <a href="#games">
+                    Discover Game <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- GAMES SECTION -->
+<section class="games-section" id="games">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <div>
+                <span class="section-label">EXPLORE THE UNIVERSE</span>
+                <h2>POPULAR <span>GAMES</span></h2>
+                <p>Find your next favourite adventure.</p>
+            </div>
+
+            <a href="#games" class="view-all">
+                View All Games →
+            </a>
+        </div>
+
+                </div>
+
+        <!-- GAME SEARCH -->
+        <div class="game-search">
+            <input
+                type="search"
+                id="game-search"
+                placeholder="Search for a game..."
+                autocomplete="off"
+            >
+            <span class="search-icon">⌕</span>
+        </div>
+
+        <!-- GAME CATEGORIES -->
+        <div class="game-categories">
+            <button class="category-btn active" data-category="all">All Games</button>
+            <button class="category-btn" data-category="action">Action</button>
+            <button class="category-btn" data-category="adventure">Adventure</button>
+            <button class="category-btn" data-category="racing">Racing</button>
+            <button class="category-btn" data-category="sports">Sports</button>
+            <button class="category-btn" data-category="rpg">RPG</button>
+            <button class="category-btn" data-category="strategy">Strategy</button>
+        </>
+
+        <!-- GAME GRID -->
+        <div class="games-grid">
+
+            <article class="game-card" data-category="action">
+          <div class="game-art art-action">
+    <img src="images/ironclad.jpeg" alt="Ironclad Arena artwork" class="game-card-image">
+    <span class="game-tag">ACTION</span>
+          </div>
+                <div class="game-info">
+                    <h3>Ironclad Arena</h3>
+                    <p>Enter the battlefield and prove your strength.</p>
+                    <a href="game-details.html">Explore Game →</a>
+                </div>
+            </article>
+
+            <article class="game-card" data-category="adventure">
+  <div class="game-art art-adventure">
+    <img src="images/ashen-frontier.jpeg" alt="Ashen Frontier artwork" class="game-card-image">
+    <span class="game-tag">ADVENTURE</span>
+  </div>
+                <div class="game-info">
+                    <h3>Ashen Frontier</h3>
+                    <p>Discover forgotten lands and hidden mysteries.</p>
+                    <a href="game-details.html?game=ashen-frontier">
+    Explore Game →
+                    </a>
+                </div>
+            </article>
+
+            <article class="game-card" data-category="racing">
+    <div class="game-art art-racing">
+    <img src="images/velocity-x.jpeg" alt="Velocity X artwork" class="game-card-image">
+    <span class="game-tag">RACING</span>
+    </div>
+                <div class="game-info">
+                    <h3>Velocity X</h3>
+                    <p>Push your limits in high-speed competition.</p>
+                    <a href="game-details.html?game=velocity-x">Explore Game →</a>
+                </div>
+            </article>
+
+            <article class="game-card" data-category="sports">
+  <div class="game-art art-sports">
+    <img src="images/goalbound.jpeg" alt="Goalbound artwork" class="game-card-image">
+    <span class="game-tag">SPORTS</span>
+  </div>
+                <div class="game-info">
+                    <h3>Goalbound</h3>
+                    <p>Experience the excitement of competitive sports.</p>
+                    <a href="game-details.html?game=goalbound">Explore Game →</a>
+                </div>
+            </article>
+
+            <article class="game-card" data-category="rpg">
+  <div class="game-art art-rpg">
+    <img src="images/mythic-echoes.jpeg" alt="Mythic Echoes artwork" class="game-card-image">
+    <span class="game-tag">RPG</span>
+  </div>
+                <div class="game-info">
+                    <h3>Mythic Echoes</h3>
+                    <p>Build your legend in a world of magic.</p>
+                    <a href="game-details.html?game=mythic-echoes">Explore Game →</a>
+                </div>
+            </article>
+
+            <article class="game-card" data-category="strategy">
+  <div class="game-art art-strategy">
+    <img src="images/kingdoms-at-war.jpeg" alt="Kingdoms at War artwork" class="game-card-image">
+    <span class="game-tag">STRATEGY</span>
+  </div>
+                <div class="game-info">
+                    <h3>Kingdoms at War</h3>
+                    <p>Command your forces and shape an empire.</p>
+                    <a href="game-details.html?game=kingdoms-at-war">Explore Game →</a>
+                </div>
+            </article>
+
+        </div>
+
+<!-- NO RESULTS MESSAGE -->
+<div class="no-results" id="no-results">
+    <div class="no-results-icon">🎮</div>
+    <h3>No Games Found</h3>
+    <p>
+        We couldn't find any games matching your search.
+        Try another title or category.
+    </p>
+</div>
+
+    </div>
+
+</section>
+
+
+<!-- FEATURES SECTION -->
+
+<section class="features-section" id="features">
+    <div class="container">
+
+        <div class="section-heading">
+            <div>
+                <span class="section-label">WHY GAMEVERSE</span>
+                <h2>BUILT FOR <span>GAMERS</span></h2>
+                <p>Everything you need for an exciting gaming experience.</p>
+            </div>
+        </div>
+
+        <div class="features-grid">
+
+            <div class="feature-card">
+                <div class="feature-icon">🎮</div>
+                <h3>Massive Game Library</h3>
+                <p>Explore a growing collection of games across different genres and experiences.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Multiple Genres</h3>
+                <p>From action and adventure to racing and strategy, find your next favourite game.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🚀</div>
+                <h3>Fresh Experiences</h3>
+                <p>Discover new gaming experiences and exciting worlds to explore.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🌐</div>
+                <h3>Gaming Community</h3>
+                <p>Be part of a world where gaming fans share their passion and interests.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+
+<section class="about-section" id="about">
+    <div class="container about-container">
+
+        <div class="about-content">
+            <span class="section-label">ABOUT GAMEVERSE</span>
+
+            <h2>
+                MORE THAN<br>
+                JUST <span>GAMING.</span>
+            </h2>
+
+            <p>
+                GameVerse is a gaming universe built for players
+                who love discovering new worlds, exploring different
+                genres and experiencing exciting adventures.
+            </p>
+
+            <p>
+                From intense action and competitive sports to
+                immersive fantasy adventures, there's always
+                something new waiting to be explored.
+            </p>
+
+            <a href="#games" class="about-button">
+                Explore Our Games →
+            </a>
+        </div>
+
+        <div class="about-visual">
+            <div class="about-visual-content">
+                <span class="about-small-label">WELCOME TO</span>
+                <h3>GAME<span>VERSE</span></h3>
+                <div class="about-line"></div>
+                <p>DISCOVER. PLAY. EXPERIENCE.</p>
+                <div class="about-orbit orbit-one"></div>
+                <div class="about-orbit orbit-two"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- COMMUNITY SECTION -->
+
+<section class="community-section" id="community">
+    <div class="container">
+
+        <div class="community-content">
+
+            <span class="section-label">YOUR WORLD. YOUR COMMUNITY.</span>
+
+            <h2>
+                LEVEL UP YOUR<br>
+                <span>GAMING EXPERIENCE.</span>
+            </h2>
+
+            <p>
+                Gaming is better together. Discover new experiences,
+                connect with fellow gamers and become part of the
+                GameVerse universe.
+            </p>
+
+            <div class="community-highlights">
+                <div>
+                    <span>01</span>
+                    <h3>DISCOVER</h3>
+                    <p>Explore new gaming worlds.</p>
+                </div>
+
+                <div>
+                    <span>02</span>
+                    <h3>CONNECT</h3>
+                    <p>Meet people who share your passion.</p>
+                </div>
+
+                <div>
+                    <span>03</span>
+                    <h3>COMPETE</h3>
+                    <p>Challenge yourself and grow.</p>
+                </div>
+            </div>
+
+            <a href="#games" class="community-button">
+                EXPLORE GAMEVERSE →
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <span class="logo-icon">GV</span>
+                    <span>GAME<span class="logo-accent">VERSE</span></span>
+                </a>
+
+                <p>
+                    Explore new worlds, discover exciting games
+                    and experience the universe of gaming.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>QUICK LINKS</h3>
+                <a href="#home">Home</a>
+                <a href="#games">Games</a>
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#community">Community</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>EXPLORE</h3>
+                <a href="#games">Action Games</a>
+                <a href="#games">Adventure Games</a>
+                <a href="#games">Racing Games</a>
+                <a href="#games">Sports Games</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 GameVerse. All rights reserved.</p>
+            <a href="#home">BACK TO TOP ↑</a>
+        </div>
+
+    </div>
+</footer>
+
+
+    <script src="js/mains.js"></script>
+</body>
+</html>
